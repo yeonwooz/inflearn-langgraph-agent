@@ -3,7 +3,7 @@ name = "inflearn-langgraph-lecture"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "aiofiles==24.1.0",
     "aiohappyeyeballs==2.4.4",
@@ -212,7 +212,7 @@ dependencies = [
     "uritemplate==4.1.1",
     "urllib3==2.3.0",
     "uvicorn==0.34.0",
-    "uvloop==0.21.0",
+    "uvloop==0.21.0; sys_platform != 'win32'",
     "watchfiles==1.0.3",
     "wcwidth==0.2.13",
     "webencodings==0.5.1",
